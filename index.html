@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Priyanshu Roy</title>
+  </head>
+  <body class="light" id="top">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <header class="header center">
+      <h3>
+        <a href="https://roypr0369.github.io/" class="link"
+          >roypr0369</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Priyanshu Roy.</span></h1>
+        <h2 class="about__role">A Android Developer.</h2>
+        <p class="about__desc">
+            I'm a Final year student majoring in Computer Science at Birla Institute of Technology , Mesra. I enjoy a lot of Problem-Solving. One of things I did from my first year was Competitive Programming which helped me build my problem solving skills. I have also competed in Google Codejam, Meta HackerCup, Google HashCode, Codechef SnackDown, Google KickStart. The passion still remains the same to keep learning and growing. Recently, I decided to get my hands dirty on Android Development. I have made few projects related to android development.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1S0DPJm0WjIhp204qub-07HgcRW-SMnEL/view?usp=sharing"
+          target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/roypr0369"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/priyanshu-roy-590b6221a/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>ShowChat</h3>
+            <p class="project__description">
+              <ul class = "project__description">
+                <li class = "project__description">It provides the users to register with Authentication by email-address</li>
+                <li class="project__description">It provides the users with facility to chat with multiple people</li>
+                <li class = "project__description">It provides the users to check the Online status of the other user</li>
+                <li class = "project__description">It provides the users with the facility to receive message notifications from the receipents</li>
+                <li class = "project__description">It stores the data of the messages sent and the receipents registered in the application in Firebase Database</li>
+              </ul>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Kotlin</li>
+              <li class="project__stack-item">Android</li>
+              <li class="project__stack-item">Firebase</li>
+            </ul>
+
+            <a
+              href="https://github.com/roypr0369/ShowChat"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1pnLp93IlR2aFK6Qg3SOLdv1FdHfvkhoT/view?usp=drive_link"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>CryptoWise</h3>
+            <p class="project__description">
+              <ul class="project__description">
+                <li class="project__description">It empowers users with real-time insights into the cryptocurrency market. It allows users gain valuable insights into the top performers, enabling to make informed decisions.</li>
+                <li class = "project__description"> Users can bookmark and save their preferred investor with this.</li>
+                <li class="project__description">It offers users real-time data insights into the ups and downs of cryptocurrency players through dynamic and interactive graph plotting.</li>
+                <li class = "project__description">It pulls the data from the API(api.coinmarketcap.com) with the help of Retrofit library.</li>
+              </ul>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Kotlin</li>
+              <li class="project__stack-item">Android</li>
+              <li class="project__stack-item">Git</li>
+              <li class="project__stack-item">API</li>
+              <li class="project__stack-item">Retrofit</li>
+            </ul>
+
+            <a
+              href="https://github.com/roypr0369/CryptoWise"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1aazcNB5oY2BVhPRuHdoLkobIrvK3dMpd/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>NewsApp</h3>
+            <p class="project__description">
+              <ul class="project__description">
+                <li class="project__description">The top headlines can be seen by users. Users can choose from a variety of news categories.</li>
+                <li class="project__description">When a headline is clicked, it gives users detailed news about that particular headline.</li>
+                <li class = "project__description">It pulls news for the application using the News API (newsapi.org). It uses the Retrofit library to access the API calls.</li>
+              </ul>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Kotlin</li>
+              <li class="project__stack-item">Android</li>
+              <li class="project__stack-item">API</li>
+              <li class="project__stack-item">Retrofit</li>
+            </ul>
+
+            <a
+              href="https://github.com/roypr0369/NewsApp"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1-ZDooO1heWIivgGLDUYPA-Qwka1C-tX0/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coding Profiles -->
+      <section class="section">
+        <h2 class="section__title">Ratings</h2>
+        <ul class="coding">
+          <li class = "coding__list-item btn btn--outline"> <a href="https://codeforces.com/profile/roypr0369" target="_blank">Codeforces</a> </li>
+          <li class = "coding__list-item btn btn--outline"> <a href="https://www.codechef.com/users/roypriyanshu" target="_blank">Codechef</a> </li>
+          <li class = "coding__list-item btn btn--outline"> <a href="https://leetcode.com/roypr0369/" target="_blank">Leetcode</a> </li>
+          <li class="coding__list-item btn btn--outline"> <a href="https://www.codingninjas.com/studio/profile/roypr0369" target="_blank">Codestudio</a></li>
+          <li class="coding__list-item btn btn--outline"> <a href="https://auth.geeksforgeeks.org/user/roypr0369/" target="_blank">GeeksforGeeks</a></li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Android</li>
+          <li class="skills__list-item btn btn--plain">Kotlin</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:roypriyanshu937@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/roypr0369/roypr0369.github.io"
+        target="_blank"
+        class="link footer__link"
+      >
+        Created By Priyanshu Roy
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
